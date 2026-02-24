@@ -32,6 +32,10 @@ site/
 .env.*
 *.pem
 
+# Frontend
+node_modules/
+static/
+
 # OS
 .DS_Store
 Thumbs.db

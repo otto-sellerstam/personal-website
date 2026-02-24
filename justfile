@@ -12,6 +12,31 @@ dev:
 serve:
     uv run python -m personal_website.server
 
+### Frontend Quality ####################################################
+
+# Run frontend ESLint
+fe-lint:
+    cd frontend && npm run lint
+
+# Run frontend ESLint with auto-fix
+fe-lint-fix:
+    cd frontend && npm run lint:fix
+
+# Format frontend code with Prettier
+fe-format:
+    cd frontend && npm run format
+
+# Check frontend formatting without changes
+fe-format-check:
+    cd frontend && npm run format:check
+
+# Run frontend TypeScript type checker
+fe-typecheck:
+    cd frontend && npm run typecheck
+
+# Run all frontend checks (lint + format-check + typecheck)
+fe-check: fe-lint fe-format-check fe-typecheck
+
 ### Setup ###############################################################
 
 # Install dependencies (dev included)
