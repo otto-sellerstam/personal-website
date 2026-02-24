@@ -1,0 +1,12 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v0.3.5
+_src_path: gh:otto-sellerstam/bonfire
+author_email: ottosellerstam@gmail.com
+author_name: Otto Sellerstam
+description: My personal website, using one-ring-http
+include_github_actions: true
+license: MIT
+module_name: personal_website
+project_name: personal-website
+project_type: standalone
+python_version: '3.14'

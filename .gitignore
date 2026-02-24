@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Tools
+.ruff_cache/
+
+# IDE
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.swp
+*.swo
+
+# Docs
+site/
+
+# Secrets
+.env
+.env.*
+*.pem
+
+# OS
+.DS_Store
+Thumbs.db
